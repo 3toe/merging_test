@@ -1,0 +1,31 @@
+/* CSS resets */
+*{
+	vertical-align: baseline;
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   /* outline: dashed 1px red; */
+}
+
+#container{
+   background-color: black;
+   width: 720px;
+   color: white;
+}
+   h1{
+      margin-bottom: 20px;
+   }
+   
+   p{
+      margin: 20px 0;
+   }
+
+   img{
+      display: inline-block;
+      width: 350px;
+      height: 300px;
+      border: solid 1px gray;
+      margin: 3px;
+   }
